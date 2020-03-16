@@ -1,0 +1,41 @@
+PODS:
+  - KLCache (1.0.0)
+  - KLImageView (1.0.0):
+    - KLCache
+    - KLImageView/libwebp (= 1.0.0)
+    - KLImageView/WebP (= 1.0.0)
+  - KLImageView/libwebp (1.0.0):
+    - KLCache
+    - libwebp
+  - KLImageView/WebP (1.0.0):
+    - KLCache
+  - libwebp (1.1.0):
+    - libwebp/demux (= 1.1.0)
+    - libwebp/mux (= 1.1.0)
+    - libwebp/webp (= 1.1.0)
+  - libwebp/demux (1.1.0):
+    - libwebp/webp
+  - libwebp/mux (1.1.0):
+    - libwebp/demux
+  - libwebp/webp (1.1.0)
+
+DEPENDENCIES:
+  - KLImageView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - KLCache
+    - libwebp
+
+EXTERNAL SOURCES:
+  KLImageView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KLCache: 2b49016cc4eb4a530fd77c0850fc060e3426e5ba
+  KLImageView: 274b9f5eb704fb959c477d4a8a9e5f7ac66c210f
+  libwebp: 946cb3063cea9236285f7e9a8505d806d30e07f3
+
+PODFILE CHECKSUM: a784b86432bf6cafc41967a856eaecb7385547a6
+
+COCOAPODS: 1.8.3

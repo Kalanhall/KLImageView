@@ -1,0 +1,60 @@
+{
+  "name": "KLImageView",
+  "version": "1.0.0",
+  "summary": "A Custom ImageView framework.",
+  "description": "组件简介：\n支持主流图片格式:jpg,png,wep,gif...",
+  "homepage": "https://github.com/Kalanhall/KLImageView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Kalanhall@163.com": "Kalan"
+  },
+  "source": {
+    "git": "https://github.com/Kalanhall@163.com/KLImageView.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": [
+    "KLImageView/Classes/*.{h,m}",
+    "KLImageView/Classes/Categories/*.{h,m}",
+    "KLImageView/Classes/Image/*.{h,m}"
+  ],
+  "frameworks": [
+    "UIKit",
+    "CoreFoundation",
+    "QuartzCore",
+    "AssetsLibrary",
+    "ImageIO",
+    "Accelerate",
+    "MobileCoreServices"
+  ],
+  "dependencies": {
+    "KLCache": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "WebP",
+      "ios": {
+        "vendored_frameworks": "KLImageView/Classes/Vendor/WebP.framework"
+      }
+    },
+    {
+      "name": "libwebp",
+      "dependencies": {
+        "libwebp": [
+
+        ]
+      },
+      "xcconfig": {
+        "USER_HEADER_SEARCH_PATHS": "$(inherited) $(SRCROOT)/libwebp/src"
+      }
+    }
+  ]
+}

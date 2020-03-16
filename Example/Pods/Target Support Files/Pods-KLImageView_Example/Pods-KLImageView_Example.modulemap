@@ -1,0 +1,6 @@
+framework module Pods_KLImageView_Example {
+  umbrella header "Pods-KLImageView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

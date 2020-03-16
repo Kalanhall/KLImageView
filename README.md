@@ -22,7 +22,7 @@ pod 'KLImageView'
 
 ## Author
 
-Kalanhall@163.com, wujm002@galanz.com
+Kalanhall@163.com, Kalan
 
 ## License
 
