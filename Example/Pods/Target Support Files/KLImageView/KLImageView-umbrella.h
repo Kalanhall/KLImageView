@@ -19,7 +19,6 @@
 #import "UIButton+KLWebImage.h"
 #import "UIImage+KLWebImage.h"
 #import "UIImageView+KLWebImage.h"
-#import "_KLWebImageSetter.h"
 #import "KLFrameImage.h"
 #import "KLImage.h"
 #import "KLImageCoder.h"

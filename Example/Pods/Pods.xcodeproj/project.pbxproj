@@ -39,7 +39,6 @@
 		288875809C58005DE2BF32524258DAD1 /* KLSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D872CBA99C68715CE6AAEDD68B7E73 /* KLSpriteSheetImage.m */; };
 		2CA557B9D3439DF55404D9C5DA8AC674 /* KLWebImage.h in Headers */ = {isa = PBXBuildFile; fileRef = AB11DAE86960BB59D695160778A40138 /* KLWebImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2EB3376838CE252DCEBE55977C85038C /* upsampling.c in Sources */ = {isa = PBXBuildFile; fileRef = A9C5107B6FAE6DF15CD978D4E395FD93 /* upsampling.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
-		306FAE9F3B79E34CCE1AAD1CCF8EBB14 /* _KLWebImageSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 236914681257A41B43F59B33288FD60A /* _KLWebImageSetter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3168ED4A5B3843148B05BD642F651BAA /* filters_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = D80B805F1DAC308D8150717D2326E429 /* filters_utils.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
 		329EF23411D80DF89C55EF411E8B9D57 /* lossless.c in Sources */ = {isa = PBXBuildFile; fileRef = 83174D110B04AD0C30445C57C772C790 /* lossless.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
 		33B31B928FAA8EA3B659A307BC63E313 /* lossless_mips_dsp_r2.c in Sources */ = {isa = PBXBuildFile; fileRef = 77A40348121D5FD72CC73A246E966FE4 /* lossless_mips_dsp_r2.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
@@ -86,6 +85,7 @@
 		5CF74D4C6EFA33C3ED8329C04B020C8A /* webp_dec.c in Sources */ = {isa = PBXBuildFile; fileRef = 41A98DC0ED4CDC5FF5174576A71D2B8E /* webp_dec.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
 		5D05CA87D603068A41131B1CEF29F90D /* quant_levels_utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 079DA325F15E02AC51C3CCED11D7E80A /* quant_levels_utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5ECE73B09532885F9A6F16C0B14E94E1 /* Pods-KLImageView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7BC0AD35EF17422E670AB2CE23C32F /* Pods-KLImageView_Tests-dummy.m */; };
+		5F14C23A13885E0844EC362792953017 /* _KLWebImageSetter.h in Headers */ = {isa = PBXBuildFile; fileRef = 236914681257A41B43F59B33288FD60A /* _KLWebImageSetter.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5F9BBB3601FACACC54621C41065C6099 /* KLKVStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = FDA8281174B8B3D78F9E14B54A684522 /* KLKVStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		616E62502EB8E827B3CC628A4F4B12EF /* KLMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = FDE158016D1B1095EF2728F16ECFEB97 /* KLMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		617666A5C5512FC672A832CFE967F9EF /* enc_msa.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D279790018AB3A88F40BF4D33FF044A /* enc_msa.c */; settings = {COMPILER_FLAGS = "-D_THREAD_SAFE -fno-objc-arc"; }; };
@@ -1102,7 +1102,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				306FAE9F3B79E34CCE1AAD1CCF8EBB14 /* _KLWebImageSetter.h in Headers */,
+				5F14C23A13885E0844EC362792953017 /* _KLWebImageSetter.h in Headers */,
 				52C616878487841E7AFBAF7DE2204F92 /* CALayer+KLWebImage.h in Headers */,
 				00EA595EDB69A7F9D8FF8A69405146D4 /* KLFrameImage.h in Headers */,
 				ED18C66B97DFC17690F6C122CC135FE0 /* KLImage.h in Headers */,
