@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KLImageView'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A Custom ImageView framework.'
 
 # This description is used to generate tags and improve search results.
@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
   s.source_files = 'KLImageView/Classes/*.{h,m}', 'KLImageView/Classes/Categories/*.{h,m}', 'KLImageView/Classes/Image/*.{h,m}'
   s.public_header_files = 'KLImageView/Classes/*.{h}', 'KLImageView/Classes/Categories/*.{h}', 'KLImageView/Classes/Image/*.{h}'
   s.private_header_files = 'KLImageView/Classes/Categories/_*.{h}', 'KLImageView/Classes/Image/_*.{h}'
-  s.frameworks = 'UIKit', 'CoreFoundation', 'QuartzCore', 'AssetsLibrary', 'ImageIO', 'Accelerate', 'MobileCoreServices'
+  s.frameworks = 'UIKit', 'CoreFoundation', 'QuartzCore', 'Photos', 'ImageIO', 'Accelerate', 'CoreServices'
   
   s.subspec 'WebP' do |webp|
     webp.ios.vendored_frameworks = 'KLImageView/Classes/Vendor/WebP.framework'

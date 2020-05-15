@@ -37,10 +37,10 @@
     "UIKit",
     "CoreFoundation",
     "QuartzCore",
-    "AssetsLibrary",
+    "Photos",
     "ImageIO",
     "Accelerate",
-    "MobileCoreServices"
+    "CoreServices"
   ],
   "dependencies": {
     "KLCache": [

@@ -23,7 +23,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
 //    NSString *path = [NSBundle.mainBundle pathForResource:@"niconiconi@2x.gif" ofType:nil];
-    NSString *path = [NSBundle.mainBundle pathForResource:@"google@2x.webp" ofType:nil];
+    NSString *path = [NSBundle.mainBundle pathForResource:@"niconiconi@2x.gif" ofType:nil];
     [self.ImageView kl_setImageWithURL:[NSURL fileURLWithPath:path] placeholder:nil options:KLWebImageOptionProgressive completion:^(UIImage * _Nullable image, NSURL * _Nonnull url, KLWebImageFromType from, KLWebImageStage stage, NSError * _Nullable error) {
         
     }];
