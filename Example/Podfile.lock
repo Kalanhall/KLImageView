@@ -1,13 +1,13 @@
 PODS:
   - KLCache (1.0.0)
-  - KLImageView (1.0.1):
+  - KLImageView (1.0.2):
     - KLCache
-    - KLImageView/libwebp (= 1.0.1)
-    - KLImageView/WebP (= 1.0.1)
-  - KLImageView/libwebp (1.0.1):
+    - KLImageView/libwebp (= 1.0.2)
+    - KLImageView/WebP (= 1.0.2)
+  - KLImageView/libwebp (1.0.2):
     - KLCache
     - libwebp
-  - KLImageView/WebP (1.0.1):
+  - KLImageView/WebP (1.0.2):
     - KLCache
   - libwebp (1.1.0):
     - libwebp/demux (= 1.1.0)
@@ -33,7 +33,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   KLCache: 2b49016cc4eb4a530fd77c0850fc060e3426e5ba
-  KLImageView: a400e94897dd42b45349da2a003b750a97f78b63
+  KLImageView: 311da4d51f44ff37cf15ada9da835e6473bff373
   libwebp: 946cb3063cea9236285f7e9a8505d806d30e07f3
 
 PODFILE CHECKSUM: a784b86432bf6cafc41967a856eaecb7385547a6
